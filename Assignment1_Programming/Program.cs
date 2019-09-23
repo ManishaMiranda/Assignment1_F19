@@ -6,22 +6,22 @@ namespace Assignment1_F19
     {
         static void Main(string[] args)
         {
-            int a = 1, b = 100;
+            int a = 1, b = 22;
             printSelfDividingNumbers(a, b);
 
-            int n2 = 10;
+            int n2 = 5;
             printSeries(n2);
 
-            int n3 = 7;
+            int n3 = 5;
             printTriangle(n3);
 
-            int[] J = new int[] { 1, 3, 2 };
+            int[] J = new int[] { 1, 3};
             int[] S = new int[] { 1, 3, 3, 2, 2, 2, 2, 2 };
             int r4 = numJewelsInStones(J, S);
             Console.WriteLine(r4);
 
-            int[] arr1 = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-            int[] arr2 = new int[] { 1, 2, 5, 6, 7, 8, 9, 10 };
+            int[] arr1 = new int[] { 1, 2, 5, 6, 7, 8, 9};
+            int[] arr2 = new int[] { 1, 2, 3, 4, 5};
             int[] r5 = getLargestCommonSubArray(arr1, arr2);
             Console.WriteLine(r5);
             
